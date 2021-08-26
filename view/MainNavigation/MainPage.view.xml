@@ -6,7 +6,12 @@
   <Page class="sapUiContentPadding"
     title="Home">
     <content>
-      <!-- Place content here-->
+
+      <Button text="Dialog"
+        width="230px"
+        press="onMessageDialogPress"
+        class="sapUiSmallMarginBottom" />
+
     </content>
   </Page>
 </mvc:View>
